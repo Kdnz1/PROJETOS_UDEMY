@@ -37,7 +37,6 @@ while True:
             continue
     except:
         print('Letras não são permitidas.')
-        print(linha)
         continue
     print(linha)
     sair = input('Desejas continuar?\n[S]im [N]ão:').lower()
@@ -49,4 +48,5 @@ while True:
         break
 
         
+
     
