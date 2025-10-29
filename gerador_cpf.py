@@ -1,5 +1,7 @@
+"""
+    GERADOR DE CPF
+"""
 import random
-
 
 nove_numeros = ''
 for i in range(9):
@@ -24,5 +26,6 @@ segundo_digito = segundo_digito if segundo_digito <= 9 else 0
 
 
 cpf_calculo = f'{nove_numeros}{primeiro_digito}{segundo_digito}'
+
 
 print(f'Aqui está seu novo CPF: {cpf_calculo[0:3]}.{cpf_calculo[3:6]}.{cpf_calculo[6:9]}-{cpf_calculo[9:]}')
